@@ -74,12 +74,12 @@ export default function Body() {
             <Table sx={{ minWidth: 700 }} aria-label="customized table">
                 <TableHead>
                     <TableRow>
-                        <StyledTableCell>TITLE</StyledTableCell>
-                        <StyledTableCell align="center">SUBTITLE</StyledTableCell>
-                        <StyledTableCell align="center">ISBN</StyledTableCell>
-                        <StyledTableCell align="center">PRICE</StyledTableCell>
-                        <StyledTableCell align="center">IMAGE</StyledTableCell>
-                        <StyledTableCell align="center">URL</StyledTableCell>
+                        <StyledTableCell><h2>TITLE</h2></StyledTableCell>
+                        <StyledTableCell align="center"><h2>SUBTITLE</h2></StyledTableCell>
+                        <StyledTableCell align="center"><h2>ISBN</h2></StyledTableCell>
+                        <StyledTableCell align="center"><h2>PRICE</h2></StyledTableCell>
+                        <StyledTableCell align="center"><h2>IMAGE</h2></StyledTableCell>
+                        <StyledTableCell align="center"><h2>URL</h2></StyledTableCell>
                     </TableRow>
                 </TableHead>
                 <TableBody>

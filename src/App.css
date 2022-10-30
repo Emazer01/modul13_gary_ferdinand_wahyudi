@@ -77,6 +77,10 @@ footer{
 tr:nth-of-type(even){
   background-color: #03a9f4;
 }
+h2{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin: 0px;
+}
 h1{
   margin: 25px 0px;
 }
