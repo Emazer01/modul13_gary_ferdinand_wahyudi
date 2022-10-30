@@ -15,13 +15,14 @@ const StyledTableCell = styled(TableCell)(({ theme }) => ({
     color: theme.palette.common.white,
   },
   [`&.${tableCellClasses.body}`]: {
-    fontSize: 14,
+    color: theme.palette.common.white,
+    fontSize: 16,
   },
 }));
 
 const StyledTableRow = styled(TableRow)(({ theme }) => ({
   '&:nth-of-type(odd)': {
-    backgroundColor: theme.palette.action.hover,
+    backgroundColor: theme.palette.info.main,
   },
   // hide last border
   '&:last-child td, &:last-child th': {
@@ -47,7 +48,7 @@ const rows = [
     'https://pragprog.com/titles/tpp20/the-pragmatic-programmer-20th-anniversary-edition/tpp20_hu7d9a813cf46675dfb7b1bf4930cee733_2802494_375x0_resize_q75_box.jpg', 
     'https://pragprog.com/titles/tpp20/the-pragmatic-programmer-20th-anniversary-edition/'),
   createData('Head First PHP & MySQL', 
-    '', 
+    '-', 
     9780596006303, 
     '$39.99', 
     'https://books.google.co.id/books/content?id=nJWN1dyxaJIC&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE7044FBgSs7Aq3FNyO1sX3_9GuM6GofF1QxjOdPbjVLMQI1i9OwkpQ7FHe7CjZ5AYCrSk9g8SWEvdWwWsdL6yWjJSSPB5PkkApIIY7Bg4MAP03kaeioRIC5B9elcwt66tS8XVOvI', 

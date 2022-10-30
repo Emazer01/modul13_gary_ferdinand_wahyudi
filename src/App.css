@@ -3,12 +3,23 @@
 }
 
 .App-logo {
-  height: 20vmin;
+  height: 120px;
+  pointer-events: none;
+}
+.logo-foot{
+  display: flex;
+  flex-direction: row;
+}
+.App-logo-foot {
+  height: 90px;
   pointer-events: none;
 }
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+  .App-logo-foot {
     animation: App-logo-spin infinite 20s linear;
   }
 }
@@ -19,8 +30,6 @@
   height: 130px;
   display: flex;
   flex-direction: row;
-  align-items: left;
-  justify-content: left;
   font-size: calc(10px + 2vmin);
   color: white;
   border-radius: 5px;
@@ -47,7 +56,7 @@ body{
   padding: 20px;
 }
 img{
-  height: 120px;
+  height: 130px;
 }
 a{
   color: white;
@@ -57,9 +66,35 @@ a{
 }
 footer{
   background-color: #1565C0;
-  padding: 5px;
+  padding: 10px;
   margin-top: 10px;
   border-radius: 5px;
   justify-content: left;
   color: white;
+  display: flex;
+  flex-direction: row;
+}
+tr:nth-of-type(even){
+  background-color: #03a9f4;
+}
+h1{
+  margin: 25px 0px;
+}
+h3{
+  margin: 10px;
+}
+p{
+  margin: 7px;
+  margin-left: 10px;
+}
+left{
+  text-align: left;
+  width: 33%;
+}
+center{
+  text-align: center;
+  width: 33%;
+}
+th{
+  min-width: 120px;
 }
